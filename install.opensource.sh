@@ -8,6 +8,6 @@ pushd pkgsh/
   cd git-2.4.2
   make prefix=/usr/local/git all
   make prefix=/usr/local/git install
-  echo "export PATH=$PATH:/usr/local/git/bin" >> /etc/bashrc
+  echo 'export PATH=$PATH:/usr/local/git/bin' >> /etc/bashrc
   source /etc/bashrc
 popd
